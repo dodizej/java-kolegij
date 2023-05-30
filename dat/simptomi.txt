@@ -1,0 +1,9 @@
+1
+Kasalj
+RIJETKO
+2
+Temperatura
+CESTO
+3
+Glavobolja
+SREDNJE

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.sample.PrviEkranController">
+
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Županije">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#pretragaZupanija" text="Pretraga" />
+                  <MenuItem mnemonicParsing="false" onAction="#novaZupanija" text="Novi zapis" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Simptomi">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#pretragaSimptoma" text="Pretraga" />
+                  <MenuItem mnemonicParsing="false" onAction="#noviSimptom" text="Novi zapis" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Bolesti">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#pretragaBolesti" text="Pretraga" />
+                  <MenuItem mnemonicParsing="false" onAction="#novaBolest" text="Novi zapis" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Virusi">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#pretragaVirusa" text="Pretraga" />
+                  <MenuItem mnemonicParsing="false" onAction="#noviVirus" text="Novi zapis" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Osobe">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#pretragaOsoba" text="Pretraga" />
+                  <MenuItem mnemonicParsing="false" onAction="#novaOsoba" text="Novi zapis" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+
+
+</BorderPane>
